@@ -1,0 +1,94 @@
+<style>
+body {
+    font-family: "Century Gothic", sans-serif;
+}
+#message {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+}
+form {
+    border: 3px solid whitesmoke;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid olivedrab;
+    box-sizing: border-box;
+    font-family: "Century Gothic", sans-serif;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: olivedrab;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-family: "Century Gothic", sans-serif;
+    font-size: medium;
+}
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+.LoginForm {
+    padding: 100px;
+}
+h1 {
+    text-align: center;
+}
+.UserDiv {
+    font-family: "Century Gothic", sans-serif;
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width: 55%;
+    height: 100px;
+}
+th {
+    color: whitesmoke;
+    background-color: black;
+}
+.LogoutRef {
+    text-align: left;
+    margin-top: 10px;
+}
+.AddRef {
+    text-align: left;
+}
+.AdminName {
+    margin: 10px 0;
+    font-weight: bold;
+}
+.RegisterRef {
+    width: 92%;
+    text-align: center;
+    background-color: olivedrab;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-family: "Century Gothic", sans-serif;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+}
+.CreateAcc {
+    text-align: center;
+}
+.CreateAcc:hover {
+    opacity: 0.8;
+}
+</style>
